@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: greenyellow;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0px 0px 10px 10px04;
+}
+body {
+    width: 70%;
+    background-image: url("image.jpg") ;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px groove greenyellow;
+    border-radius: 14px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+input[type=date] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px groove greenyellow;
+    border-radius: 14px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.form-group{
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+.form-control{
+    width: 100%;
+    min-width: 380px;
+    border: 0;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+    color: greenyellow !important;
+    font-size: 28px !important
+;
+}
+.myForm {
+    justify-content: center;
+	background-color: rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    margin: 0px 0px;
+    position: absolute;
+    #border-radius: 4%;
+    left:60%;
+    top: 20%;
+}
+.form-group{
+
+    margin-right: 17px;
+    margin-bottom: 0px;
+    background: rgba(255,255,255,0.1);
+    padding: 0 0 ;
+
+}
+.form-control{
+    background-color: rgba(255,255,255,0.1);
+    margin: 0px;
+    border: 0px;
+
+}
+
+.butotnClass{
+    background-color: rgba(0, 255, 0, 0.6);
+}
+#my_form
+{
+background-color: transparent;
+}
+
+.transparent {
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+.container{
+    font-size: 60px;
+}
+#submit{
+    border-radius: 20%;
+}
